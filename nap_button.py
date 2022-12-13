@@ -4,7 +4,7 @@ from pathlib import Path
 import RPi.GPIO as GPIO
 from pygame import mixer, error as pygame_error
 
-from config.sleep_machine_config import *
+from config.nap_button_config import *
 
 mixer.init()
 
