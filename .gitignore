@@ -1,0 +1,5 @@
+.idea/
+misc/*
+__pycache__
+audio/*
+!audio/.gitkeep
