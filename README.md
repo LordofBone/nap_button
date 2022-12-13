@@ -13,4 +13,7 @@ Add the following lines at the end
 ```sudo chmod +x ~/nap_button/boot.sh```
 ```~/nap_button/boot.sh```
 Save the file.
-4. Make the SD Card read-only, following the instructions [here](https://learn.adafruit.com/read-only-raspberry-pi)
+4. Place your sleep assisting audio into the audio folder and rename it to 'sleep_noise.mp3' (by default it is set to play this filename)
+5. Configure the nap button to your liking by editing the config/nap_button_config.py file where you can change the
+name of the audio file, the button pin, volume and button debounce time.
+6. Make the SD Card read-only, following the instructions [here](https://learn.adafruit.com/read-only-raspberry-pi)
