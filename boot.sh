@@ -1,4 +1,4 @@
-cd ~/WhiteNoiseGenerator || exit
+cd ~/nap_button || exit
 pwd
 virtualenv venv
 source venv/bin/activate
